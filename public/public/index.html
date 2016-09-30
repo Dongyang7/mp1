@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MP1 Starter</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="nav-bar" class="large">
+            <li><a href="#section1" id="nav1">Video</a></li>
+            <li><a href="#section2" id="nav2">Gallary</a></li>
+            <li><a href="#section3" id="nav3">Heroes</a></li>
+            <li><a href="#section4" id="nav4">Maps</a></li>
+        </nav>
+    </header>
+    <section id="section1">
+        <video autoplay="autoplay" loop muted>
+            <source src="media/weROverwatch.mp4" type="video/mp4">
+        </video>
+        <h2>The World needs heroes!</h2>
+        <p>We are Overwatch! Come and Join us!</p>
+    </section>
+    <section id="section2">
+        <h1>Gallary</h1>
+        <button class="fa fa-chevron-circle-left" id="leftbtn"></button>
+        <button class="fa fa-chevron-circle-right" id="rightbtn"></button>
+        <div>
+            <div id="carousel">
+                <img src="media/slide1.jpg" class="active">
+                <img  src="media/slide2.jpg" class="inactive">
+                <img src="media/slide3.png" class="inactive">
+                <img  src="media/slide4.jpg" class="inactive">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="section3">
+        <h1>There will always be a hero for you!</h1>
+        <ul>
+            <div class="img">
+                <a target="_blank">
+                    <img src="media/soldier.png">
+
+                </a>
+                <div class="desc">Offense Hero: Soldier 76</div>
+            </div>
+            <div class="img">
+                <a target="_blank">
+                <img src="media/mei.png">
+
+                </a>
+                <div class="desc">Defense Hero: Mei</div>
+            </div>
+            <div class="img">
+                <a target="_blank">
+                <img src="media/reinhardt.png">
+
+                </a>
+                <div class="desc">Tank Hero: Reinhardt</div>
+            </div>
+            <div class="img">
+                <a target="_blank">
+                <img src="media/mercy.png">
+
+                </a>
+                <div class="desc">Support Hero: Mercy</div>
+            </div>
+        </ul>
+    </section>
+
+    <section id="section4">
+        <h1>Different Maps for Different Modes!</h1>
+        <ul>
+            <div class="img">
+                    <img src="media/hanamura.jpg">
+                <div class="desc">Assult Mode: Hanamura</div>
+            </div>
+
+            <div class="img">
+                <img src="media/dorado.jpg">
+                <div class="desc">Escort Mode: Dorado</div>
+            </div>
+
+            <div class="img">
+                <img src="media/hollywood.jpg">
+                <div class="desc">Hybrid Mode: Hollywood</div>
+            </div>
+
+            <div class="img">
+                <img src="media/ilios.jpg">
+                <div class="desc">Control Mode: Ilios</div>
+            </div>
+        </ul>
+        <div id="myModal" class="modal">
+            <span class="close">
+                &times;
+            </span>
+            <img id="modal-content">
+        </div>
+    </section>
+
+    <footer id="footer">
+    <ul id="icons">
+        <span><a href="https://www.twitter.com/PlayOverwatch" class="icon fa fa-twitter"><span class="label">Twitter</span></a></span>
+        <span><a href="https://www.facebook.com/PlayOverwatch" class="icon fa fa-facebook"><span class="label">Facebook</span></a></span>
+        <span><a href="https://www.youtube.com/PlayOverwatch" class="icon fa fa-youtube"><span class="label">Youtube</span></a></span>
+        <span><a href="https://www.instagram.com/playoverwatch" class="icon fa fa-instagram"><span class="label">Instagram</span></a></span>
+    </ul>
+    <ul id="copyright">
+        <li>Dongyang Li &copy; </li><li>2016 All Rights Reserved</li>
+    </ul>
+
+    </footer>
+
+  <script src="lib/jquery-2.1.3.min/index.js"></script>
+  <script src="js/script.js"></script>
+  <script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>
